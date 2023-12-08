@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(244, 249, 253);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+h1 {
+    text-align: center;
+    color:rgb(230, 168, 54);
+}
+.summary {
+  padding: 10px;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image {
+    width: 200px;
+  border-radius: 10px;
+}
+.ingredients1 , .procedure1 {
+    color:  rgb(223, 115, 43);
+    margin-top: 20px;
+}
+
+.ingredients2 , .procedure2 {
+    color: rgb(57, 199, 57);
+    margin-top: 20px;
+}
+
+h3 {
+    margin-top: 10px;
+}
+
+.container1 , .container2 {
+    width: 900px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.container1 {
+    border: 3px solid rgb(223, 115, 43);
+}
+
+.container2 {
+    border: 2px solid rgb(57, 199, 57);
+}
+
+.recipe1 {
+    color: rgb(223, 115, 43);
+    margin-bottom: 20px;
+}
+
+.recipe2 {
+    color:rgb(57, 199, 57);
+    margin-bottom: 20px;
+}
+
+
+.ingredients {
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+
+.button1 , .button2 {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+    margin-top: 10px;
+}
+
+.button1 {
+    background-color: rgb(223, 115, 43);
+
+}
+
+.button2 {
+    background-color: rgb(57, 199, 57);
+}
+
+button:hover {
+    opacity: 0.7;
+}
